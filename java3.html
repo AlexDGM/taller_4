@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="java3.js"></script>
+    <title>EJERCICIO 3</title>
+</head>
+<body>
+    <h1>Calculadora de Estadísticas</h1>
+
+    <h2>Ingresar Lista de Números separados por comas</h2>
+    <form id="calcularEstadisticas">
+        <textarea id="listaNumeros" rows="4" cols="50" required></textarea><br><br>
+        <button type="button" onclick="calcular()">Calcular</button>
+    </form>
+
+
+    <h2>Resultados</h2>
+    
+    <p><strong>Media:</strong> <span id="media"></span></p>
+    <p><strong>Mediana:</strong> <span id="mediana"></span></p>
+    <p><strong>Desviación Estándar:</strong> <span id="desviacion"></span></p>
+
+</body>
+</html>

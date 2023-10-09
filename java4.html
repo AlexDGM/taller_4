@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="java4.js"></script>
+    <title>EJERCICIO 4</title>
+</head>
+<body>
+    <h1>Tabla de Multiplicar</h1>
+    <form id="tablaMultiplicarForm">
+        <label for="numero">Seleccione un número:</label>
+        <input type="number" id="numero" min="1" max="10" required><br><br>
+
+        <label for="filas">Número de filas a mostrar:</label>
+        <input type="number" id="filas" min="1"><br><br>
+
+        <button type="button" onclick="generarTabla()">Generar Tabla</button>
+    </form>
+    <h2>Tabla de Multiplicar</h2>
+    <table id="tablaMultiplicar">
+    </table>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="java8.js"></script>
+    <title>EJERCICIO 8</title>
+</head>
+<body>
+    <h1>Generador de Contraseñas Seguras</h1>
+
+    <form id="generadorContraseñaForm">
+        <label for="longitud">Longitud de la Contraseña:</label>
+        <input type="number" id="longitud" min="6" required><br><br>
+
+        <label for="mayusculas">Incluir Mayúsculas:</label>
+        <input type="checkbox" id="mayusculas"><br><br>
+
+        <label for="minusculas">Incluir Minúsculas:</label>
+        <input type="checkbox" id="minusculas"><br><br>
+
+        <label for="numeros">Incluir Números:</label>
+        <input type="checkbox" id="numeros"><br><br>
+
+        <label for="especiales">Incluir Caracteres Especiales:</label>
+        <input type="checkbox" id="especiales"><br><br>
+
+        <button type="button" onclick="generarContraseña()">Generar Contraseña</button>
+    </form>
+
+    <h2>Contraseña Generada</h2>
+    <input type="text" id="contraseñaGenerada" readonly><br><br>
+
+</body>
+</html>
